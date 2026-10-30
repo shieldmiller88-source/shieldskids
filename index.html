@@ -5,20 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shields Kids - Flashcard & Media Edukasi Anak</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 40px; background: #fdfdfd; color: #333; }
-        h1 { color: #ff6b6b; }
-        .product { background: #fff; border: 1px solid #ddd; padding: 20px; margin: 20px auto; max-width: 400px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .btn { display: inline-block; background: #25d366; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 10px; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; padding: 20px; background: #fffaf0; color: #333; margin: 0; }
+        header { background: #ff6b6b; color: white; padding: 30px 20px; border-radius: 0 0 20px 20px; margin-bottom: 30px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h1 { margin: 0; font-size: 2.2em; }
+        p.subtitle { font-size: 1.1em; margin-top: 10px; opacity: 0.9; }
+        
+        .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 1000px; margin: 0 auto; padding: 10px; }
+        .product { background: #fff; border: 2px solid #ffe4b5; padding: 20px; width: 280px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); text-align: left; display: flex; flex-direction: column; justify-content: space-between; }
+        
+        .product img { width: 100%; height: 180px; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }
+        
+        .product h3 { margin: 0 0 10px 0; color: #2d3436; font-size: 1.3em; }
+        .product p { font-size: 0.95em; color: #636e72; line-height: 1.4; margin-bottom: 20px; }
+        
+        .btn { display: block; background: #25d366; color: white; padding: 12px; text-align: center; text-decoration: none; border-radius: 8px; font-weight: bold; transition: background 0.3s; }
+        .btn:hover { background: #20ba5a; }
+        
+        footer { margin-top: 50px; font-size: 0.9em; color: #b2bec3; padding: 20px; }
     </style>
 </head>
 <body>
-    <h1>Shields Kids</h1>
-    <p>Media edukasi anak interaktif, seru, dan aman untuk buah hati!</p>
-    
-    <div class="product">
-        <h3>Flashcard Perkalian & Abjad</h3>
-        <p>Bahan tebal Art Carton 210g + Laminasi + Sudut Tumpul (Child-friendly).</p>
-        <a class="btn" href="https://wa.me/6287779693254" target="_blank">Pesan via WhatsApp</a>
+
+    <header>
+        <h1>Shields Kids</h1>
+        <p class="subtitle">Media edukasi anak interaktif, seru, dan aman untuk buah hati!</p>
+    </header>
+
+    <div class="container">
+        <!-- Produk Flashcard Math -->
+        <div class="product">
+            <div>
+                <img src="foto produk fc math.jpg" alt="Flashcard Math Shields Kids">
+                <h3>Flashcard Math (Matematika)</h3>
+                <p>Bahan tebal Art Carton 210g + Laminasi + Sudut Tumpul (Child-friendly aman untuk anak).</p>
+            </div>
+            <a class="btn" href="https://wa.me/6287779693254?text=Halo%20Shields%20Kids,%20saya%20mau%20pesan%20Flashcard%20Math" target="_blank">Pesan via WhatsApp</a>
+        </div>
     </div>
+
+    <footer>
+        &copy; 2026 Shields Kids. All rights reserved.
+    </footer>
+
 </body>
 </html>
