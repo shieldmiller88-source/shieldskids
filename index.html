@@ -18,8 +18,14 @@
         .product h3 { margin: 0 0 10px 0; color: #2d3436; font-size: 1.3em; }
         .product p { font-size: 0.95em; color: #636e72; line-height: 1.4; margin-bottom: 20px; }
         
-        .btn { display: block; background: #25d366; color: white; padding: 12px; text-align: center; text-decoration: none; border-radius: 8px; font-weight: bold; transition: background 0.3s; }
-        .btn:hover { background: #20ba5a; }
+        .btn-group { display: flex; flex-direction: column; gap: 10px; }
+        .btn { display: block; padding: 12px; text-align: center; text-decoration: none; border-radius: 8px; font-weight: bold; transition: background 0.3s; }
+        
+        .btn-wa { background: #25d366; color: white; }
+        .btn-wa:hover { background: #20ba5a; }
+        
+        .btn-shopee { background: #ee4d2d; color: white; }
+        .btn-shopee:hover { background: #d73211; }
         
         footer { margin-top: 50px; font-size: 0.9em; color: #b2bec3; padding: 20px; }
     </style>
@@ -39,7 +45,14 @@
                 <h3>Flashcard Math (Matematika)</h3>
                 <p>Bahan tebal Art Carton 210g + Laminasi + Sudut Tumpul (Child-friendly aman untuk anak).</p>
             </div>
-            <a class="btn" href="https://wa.me/6287779693254?text=Halo%20Shields%20Kids,%20saya%20mau%20pesan%20Flashcard%20Math" target="_blank">Pesan via WhatsApp</a>
+            
+            <div class="btn-group">
+                <!-- Tombol Beli di Shopee (Sudah diisi link Shopee Anda) -->
+                <a class="btn btn-shopee" href="https://id.shp.ee/itpYLG2u" target="_blank">Beli di Shopee</a>
+                
+                <!-- Tombol Pesan via WhatsApp (Ganti 628xxxxxxxxxx dengan nomor WA Anda) -->
+                <a class="btn btn-wa" href="https://wa.me/628xxxxxxxxxx?text=Halo%20Shields%20Kids,%20saya%20mau%20pesan%20Flashcard%20Math" target="_blank">Pesan via WhatsApp</a>
+            </div>
         </div>
     </div>
 
